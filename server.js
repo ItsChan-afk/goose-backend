@@ -7,7 +7,15 @@ const cors = require('cors')
 
 app.use(cors())
 app.use(express.static(path.join(__dirname, 'gooses_images')));
-app.use(express.json())
+app.use(express.json());
+
+const corsOptions = {
+  origin: 'https://goose-frontend-rho.vercel.app', 
+  methods: 'GET,POST,PUT,DELETE,OPTIONS',
+  allowedHeaders: 'Content-Type,Authorization'
+};
+
+app.use(cors(corsOptions));
 
 
 app.get('/', (req, res) => {
