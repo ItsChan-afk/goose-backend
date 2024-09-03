@@ -9,6 +9,11 @@ app.use(cors())
 app.use(express.static(path.join(__dirname, 'gooses_images')));
 app.use(express.json())
 
+
+app.get('/', (req, res) => {
+  res.send({message : "welcome"})
+});
+
 //to get all the roles
 app.get('/api/every', (req, res) => {
   res.send(data.roles)
