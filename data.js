@@ -144,6 +144,30 @@ const data = {
             description: 'You should constantly use your ability to know when someone dies in the game to know who could be the potential ducks or neutrals.',
             image: 'https://goose-backend-g6bw.vercel.app/gooses_images/medium.png'
         },
+        {
+            name : 'Mimic',
+            slug : 'mimic',
+            role : 'goose',
+            short : 'The ducks see you as a duck. In addition, friendly fire is enabled for Ducks, meaning they can kill their own teammates if they are not careful.',
+            description : 'If mimic presents in the game, ducks can kill each other, even when mimic has died. This role prevents ducks from making double and triple kills without confidence that you are not a mimic. On some maps, a mimic can perform some actions like ducks. For example, on a sand map, a mimic can pass through a forbidden fog. The Mimic is considered a goose, so Sheriffs will die if they kill a Mimic',
+            image : 'https://goose-backend-g6bw.vercel.app/gooses_images/mimic.png'
+        },
+        {
+            name : 'Morph',
+            slug : 'morph',
+            role : 'duck',
+            short : 'You can temporarily morph into players you choose to sample to change your appearance.',
+            description : 'You can changed into other players and blame them. So, you shouldnt use voice coms / proximity chat when you are playing as a morph',
+            image : 'https://goose-backend-g6bw.vercel.app/gooses_images/morph.png'
+        },
+        {
+            name : 'Mortician',
+            slug : 'mortician',
+            role : 'goose',
+            short : 'Investigate a dead body to see what the dead bird\'s role is',
+            description : 'When a meeting is called you see the roles of the bodies you inspected.If you are a mortician you should ask the people to let you use your ability on the dead body',
+            image : 'https://goose-backend-g6bw.vercel.app/gooses_images/mortician.png'
+        }
     
     ]
 }
