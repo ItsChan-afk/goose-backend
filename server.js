@@ -13,7 +13,7 @@ app.use(
 app.use(express.json());
 
 const corsOptions = {
-  origin: "https://goose-frontend-rho.vercel.app",
+  origin:["https://goose-frontend-rho.vercel.app","http://localhost:3000"],
   methods: "GET,POST,PUT,DELETE,OPTIONS",
   allowedHeaders: "Content-Type,Authorization",
 };
@@ -41,7 +41,7 @@ app.get(`/api/roles/:slug`, (req, res) => {
   }
 });
 
-module.exports = app;
+// module.exports = app;
 
-// const PORT = process.env.PORT || 4000;
-// app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

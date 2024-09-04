@@ -33,8 +33,8 @@ const data = {
             image: 'https://goose-backend-g6bw.vercel.app/gooses_images/canadian.png'
         },
         {
-            name: 'Canibal',
-            slug: 'canibal',
+            name: 'Cannibal',
+            slug: 'cannibal',
             role: 'duck',
             short: 'Can eat one dead body removing potential evidence of a murder.',
             description: 'When someone dies, their body will be pointed to by an arrow where you can eat the body.',
@@ -167,6 +167,14 @@ const data = {
             short : 'Investigate a dead body to see what the dead bird\'s role is',
             description : 'When a meeting is called you see the roles of the bodies you inspected.If you are a mortician you should ask the people to let you use your ability on the dead body',
             image : 'https://goose-backend-g6bw.vercel.app/gooses_images/mortician.png'
+        },
+        {
+            name: 'Pelican',
+            slug : 'pelican',
+            role : 'neutral',
+            short : 'You can swallow players whole, but they do not die until a meeting is called.',
+            description : 'Works very similarly to the Kill ability. However, instead of killing the player and leaving behind a corpse, the Pelican will swallow that player alive and whole. That player will remain inside the Pelican\'s belly until either the Pelican dies or until a meeting of any kind is called.',
+            image : 'https://goose-backend-g6bw.vercel.app/gooses_images/pelican.png'
         }
     
     ]
