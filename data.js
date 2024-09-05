@@ -1,6 +1,14 @@
 const data = {
   roles: [
     {
+      name : "Assassin",
+      slug : 'assassin',
+      role : 'duck',
+      short : "Can kill people in meetings",
+      description : 'You can kill people in meetings by correctly guessing their roles. Be careful if you guess wrong you die',
+      image : 'https://goose-backend-g6bw.vercel.app/gooses_images/assassin.png'
+    },
+    {
       name: "Astral",
       slug: "astral",
       role: "goose",
@@ -17,6 +25,14 @@ const data = {
       description:
         "If the Avenger witnesses a murder, they gain the ability to kill one player within the next 10 seconds, does not have a kill cooldown - if they witness another murder shortly after previously using their ability to kill a player, they immediately regain the ability to temporarily kill another player.",
       image: "https://goose-backend-g6bw.vercel.app/gooses_images/avenger.png",
+    },
+    {
+      name : 'Bodyguard',
+      slug : 'bodyguard',
+      role : 'goose',
+      short : 'Protect your assigned targetto get a bonus. If you are between your target and the killer, you die instead.',
+      description : 'Bodyguard is a goose role, of which you have one Non-Duck target (can be some neutrals), to protect from the hitman or other killers. You are guaranteed to spawn with an enemy hitman, and you both have the same target',
+      image : 'https://goose-backend-g6bw.vercel.app/gooses_images/bodyguard.png'
     },
     {
       name: "Bird Watcher",
@@ -118,6 +134,14 @@ const data = {
       image: "https://goose-backend-g6bw.vercel.app/gooses_images/falcon.png",
     },
     {
+      name :'Fortune Teller',
+      slug : 'fortune-teller',
+      role : 'goose',
+      short : 'During meetings you will see the possible killers of the reported corpse.',
+      description : 'In meetings, the Fortune Teller reveals potential killers of the reported avian carcass. These potential killers are indicated by icons in the meeting.',
+      image : "https://goose-backend-g6bw.vercel.app/gooses_images/fortune-teller.png",
+    },
+    {
       name: "Hitman",
       slug: "hitman",
       role: "duck",
@@ -203,6 +227,22 @@ const data = {
         "When a meeting is called you see the roles of the bodies you inspected.If you are a mortician you should ask the people to let you use your ability on the dead body",
       image:
         "https://goose-backend-g6bw.vercel.app/gooses_images/mortician.png",
+    },
+    {
+      name : 'Party',
+      slug : 'party',
+      role : 'duck',
+      short : 'You win in voting ties and cannot be sent to jail.',
+      description : 'You can see who is voting who so make sure you don\'t scream it out loud',
+      image : "https://goose-backend-g6bw.vercel.app/gooses_images/party.png"
+    },
+    {
+      name : 'Politician',
+      slug : 'polictian',
+      role : 'goose',
+      short : 'You win in voting ties and cannot be sent to jail.',
+      description : 'During meetings the politician is a tiebreaker vote. If 2 people get the same amount of votes, the politician\'s vote will determine who gets ejected. The politician cannot be jailed by a tie vote nor the snitch duck.',
+      image: 'https://goose-backend-g6bw.vercel.app/gooses_images/politician.png'
     },
     {
       name: "Pelican",
