@@ -233,8 +233,16 @@ const data = {
       slug : 'party',
       role : 'duck',
       short : 'You win in voting ties and cannot be sent to jail.',
-      description : 'You can see who is voting who so make sure you don\'t scream it out loud',
+      description : 'During meetings the politician is a tiebreaker vote. If 2 people get the same amount of votes, the politician\'s vote will determine who gets ejected. The politician cannot be jailed by a tie vote nor the snitch duck.',
       image : "https://goose-backend-g6bw.vercel.app/gooses_images/party.png"
+    },
+    {
+      name : "Preacher",
+      slug : "preacher",
+      role : 'duck',
+      short : 'you can target non-ducks to increase their voting',
+      description :'You can also see who voted who during the meeting. So, you should give power to the goose that sus other goose so you can vote the out',
+      image : ' https://goose-backend-g6bw.vercel.app/gooses_images/preacher.png'
     },
     {
       name : 'Politician',
