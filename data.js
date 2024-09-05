@@ -333,7 +333,7 @@ const data = {
         "https://goose-backend-g6bw.vercel.app/gooses_images/undertaker.png",
     },
     {
-      name: "vigilante",
+      name: "Vigilante",
       slug: "vigilante",
       role: "goose",
       short: "Kill one bird without consequences. Choose wisely.",
